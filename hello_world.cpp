@@ -1,7 +1,11 @@
 #include <iostream>
-using namespace std;  // "плохой" стиль: использование всего пространства имен
+using namespace std;
 
 int main(){
-    cout << "Hello world" << endl;
+    string name;
+    cout << "Введите имя: ";
+    cin >> name;
+    cout << "Hello world from " << name << endl;
     return 0;
 }
+
